@@ -17,19 +17,19 @@ ROUTE:
 
 
 ## todo
-github integration
+github integration - done
 
 app component with:
 
-    -- header sub component
+header sub component
 
-    -- router
+router outlet
 
 Order (lazy loaded) (will include sub menu item component)
 
--- dashboard component (by route, here is the app start point and will include table sub dummy component with dd)
+Dashboard component (by route, here is the app start point and will include table sub dummy component with dd)
 
--- toast (material according to spec)
+Toast (material according to spec)
 
 integrate store
 
