@@ -6,9 +6,10 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import {OrderComponent} from './components/order/order.component'
 import {DashboardComponent} from './components/dashboard/dashboard.component'
 import {TableComponent} from './components/dashboard/table/table.component'
+import { OrderModule } from './components/order/order.module';
+
 
 
 
@@ -17,13 +18,13 @@ import {TableComponent} from './components/dashboard/table/table.component'
   declarations: [
     AppComponent,
     HeaderComponent,
-    OrderComponent,
     DashboardComponent,
     TableComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    OrderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
