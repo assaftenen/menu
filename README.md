@@ -31,13 +31,17 @@ Order (lazy loaded) (will include sub menu item component)
 
 -- toast (material according to spec)
 
-[*] integrate store
+integrate store
 
  
 
--- logic component
+## logic 
+
+
 [ ] submit order and add to store, change state accordantly.
+
 [ ] on dashboard load - will check store and update inner state.
+
 [ ] need to add ROUTE for individual item so it can be edit from dashboard component.
 
 
