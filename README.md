@@ -1,4 +1,10 @@
-## Task plan
+### Task plan
+
+added packages: [
+    angular material,
+    ngrx store, devtools
+    
+]
 
 github integration
 
@@ -8,7 +14,7 @@ github integration
 
     -- router
 
--- menu component 
+-- order (lazy loaded)
 
 -- dashboard component (by route)
 
