@@ -5,7 +5,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // app module
 import { AppRoutingModule } from './app-routing.module';
 import { OrderModule } from './components/order/order.module';
-import { CustomMaterialModule } from './custom-material/custom-material.module';
 // app components
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -37,7 +36,6 @@ import { environment } from '../environments/environment';
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
     BrowserAnimationsModule,
-    CustomMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { OrderRoutingModule } from './order-routing.module';
 import { OrderComponent } from './order.component';
 import { Routes, RouterModule } from '@angular/router';
+import { CustomMaterialModule } from 'src/app/custom-material/custom-material.module';
+
 
 
 
@@ -12,8 +14,10 @@ import { Routes, RouterModule } from '@angular/router';
   declarations: [OrderComponent],
   exports: [OrderComponent],
   imports: [
+    CustomMaterialModule,
     CommonModule,
-    OrderRoutingModule
+    OrderRoutingModule,
+    
   ]
 })
 export class OrderModule { }

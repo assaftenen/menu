@@ -1,1 +1,18 @@
-<p>order works!</p>
+<mat-list>
+    <div mat-subheader>Breakfast</div>
+    <mat-list-item *ngFor="let item of Breakfast">
+      <div class="menu-item">
+      <div mat-line>{{item.name    }}  </div>
+      <div mat-line> {{item.price }} </div>
+      </div>
+   
+    </mat-list-item>
+    <mat-divider></mat-divider>
+    <div mat-subheader>Lunch</div>
+    <mat-list-item *ngFor="let item of Lunch">
+        <div class="menu-item">
+      <div mat-line>{{item.name }}</div>
+      <div mat-line> {{item.price }} </div>
+      </div>
+    </mat-list-item>
+  </mat-list>
